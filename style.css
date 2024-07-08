@@ -1,0 +1,308 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #111111;
+    color: #ededed;
+}
+
+header {
+    background-color: #111111;
+    color: #ededed;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 30px;
+}
+
+.chat-box {
+    background-color: #191919;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-width: 80%;
+}
+
+.chat-box h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.chat-box p {
+    margin-bottom: 20px;
+}
+
+.about-me-content {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.about-me-content img {
+    max-width: 200px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-me-content p {
+    flex: 1; /* Take remaining space */
+}
+
+.chat-box .BPSS {
+    display: flex;
+    align-items: center;
+}
+
+.chat-box .BPSS img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.chat-box .Peirce {
+    display: flex;
+    align-items: center;
+}
+
+.chat-box .Peirce img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.chat-box .ITE {
+    display: flex;
+    align-items: center;
+}
+
+.chat-box .ITE img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.chat-box .MJS {
+    display: flex;
+    align-items: center;
+}
+
+.chat-box .MJS img {
+    max-width: 40px;
+    height: auto;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+.Cert1 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.Cert1 img {
+    max-width: 500px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.Cert2 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute items evenly; image on the right */
+    max-width: 100%; /* Limit the width if needed */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+.Cert2 img {
+    max-width: 500px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-left: 20px; /* Space between text and image */
+    order: 2; /* Move the image to the end (right side) */
+}
+
+.Cert2 p {
+    flex: 1; /* Take up remaining space */
+    margin-right: 20px; /* Space between text and image */
+}
+
+.Cert3 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.Cert3 img {
+    max-width: 500px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.Cert4 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute items evenly; image on the right */
+    max-width: 100%; /* Limit the width if needed */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+.Cert4 img {
+    max-width: 500px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-left: 20px; /* Space between text and image */
+    order: 2; /* Move the image to the end (right side) */
+}
+
+.Cert5 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.Cert5 img {
+    max-width: 400px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.Cert6 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+    justify-content: space-between; /* Distribute items evenly; image on the right */
+    max-width: 100%; /* Limit the width if needed */
+    margin: 0 auto; /* Center the section horizontally */
+}
+
+.Cert6 img {
+    max-width: 400px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-left: 20px; /* Space between text and image */
+    order: 2; /* Move the image to the end (right side) */
+}
+
+.Cert7 {
+    display: flex;
+    align-items: center; /* Center items vertically */
+}
+
+.Cert7 img {
+    max-width: 400px; /* Adjust max-width as needed */
+    height: auto;
+    border-radius: 10%; /* For circular profile image, adjust as needed */
+    margin-right: 20px; /* Space between image and text */
+}
+
+.about-me-content p {
+    flex: 1; /* Take remaining space */
+}
+
+.project-item {
+    margin-bottom: 40px;
+}
+
+.project-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.LuxCarsWeb {
+    margin-bottom: 40px;
+}
+
+.LuxCarsWeb img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.BBallGame {
+    margin-bottom: 40px;
+}
+
+.BBallGame img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.CountryGG {
+    margin-bottom: 40px;
+}
+
+.CountryGG img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.GuessingGame {
+    margin-bottom: 40px;
+}
+
+.GuessingGame img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.SFBWeb {
+    margin-bottom: 40px;
+}
+
+.SFBWeb img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.WeatherAPI{
+    margin-bottom: 40px;
+}
+
+.WeatherAPI img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+.WebScraper {
+    margin-bottom: 40px;
+}
+
+.WebScraper img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
+footer {
+    background-color: #111111;
+    color: #ededed;
+    text-align: center;
+    padding: 10px 0;
+}
