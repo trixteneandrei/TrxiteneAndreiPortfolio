@@ -311,6 +311,17 @@ header h1 {
     border-radius: 30px;
 }
 
+.Portfolio {
+    margin-bottom: 40px;
+}
+
+.Portfolio img {
+    max-width: 1000px;
+    height: auto;
+    margin-bottom: 10px;
+    border-radius: 30px;
+}
+
 footer {
     background-color: #111111;
     color: #ededed;
